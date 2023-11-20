@@ -11,7 +11,7 @@ export default function Cards({ id, image, name, alt,language,link }) {
     <div>
       <h2> {name} </h2>
       <img onClick={toggleModal} className="open-modal" src={image} />
-      <p className="open-mdl-text" >open</p>
+      <p className="open-mdl-text" ></p>
 
       {modal && (
         <div className="modal-backround" >
