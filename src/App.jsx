@@ -14,9 +14,12 @@ function App() {
     <Router  >
       <Header />
       <Routes>
+        <Route exact path="/">
+        <Redirect to="/portfolio"/>
+        </Route>
         <Route path="portfolio" element={<Portfolio />} />
-        <Route path="Contact" element={<Contact />} />
-        <Route path="Service" element={<Service />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="service" element={<Service />} />
       </Routes>
       <Footer />
     </Router>
