@@ -1,6 +1,7 @@
 
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Redirect  } from "react-router-dom";
+
 
 
 import Portfolio from "../src/Components/pages/portfolio";
