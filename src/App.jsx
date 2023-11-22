@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/">
-        <Redirect to="/portfolio"/>
+        <Redirect to="portfolio"/>
         </Route>
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
