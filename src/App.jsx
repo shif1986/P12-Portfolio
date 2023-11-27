@@ -10,10 +10,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/service" element={<Service />} />
+        <Route path="/Portfolio" element={<Portfolio />} /> 
+        <Route path="/Portfolio/contact" element={<Contact />} />
+        <Route path="/Portfolio/service" element={<Service />} />
       </Routes>
+
       <Footer />
     </Router>
   );
