@@ -1,10 +1,11 @@
 {
-  "homepage": "https://shif1986.github.io/P-12-Portfolio/",
-  "name": "P12-Portfolio",
+  "homepage": "https://shif1986.github.io/Portfolio",
+  "name": "Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

@@ -20,7 +20,7 @@ const form = () => {
     // create a new object key, contains dynamic template params
     const templateParams = {
       from_name: name,
-      from_name: email,
+      from_email: email,
       to_name: "Shifnas Saleem",
       message: message,
     };
