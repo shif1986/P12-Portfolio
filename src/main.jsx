@@ -5,15 +5,15 @@ import App from './App.jsx'
 import './style/utils/settings.scss'
 
 
-ReactDOM.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
-  document.getElementById('root')
-);
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
+// ReactDOM.render(
+//   <HashRouter>
 //     <App />
-//   </React.StrictMode>,
-// )
+//   </HashRouter>,
+//   document.getElementById('root')
+// );
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
