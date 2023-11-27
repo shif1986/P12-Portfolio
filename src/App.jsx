@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Redirect  } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
 
 
 
@@ -13,9 +13,9 @@ function App() {
     <Router  >
       <Header />
       <Routes>
-        <Route exact path="/">
+        {/* <Route exact path="/">
         <Redirect to="portfolio"/>
-        </Route>
+        </Route> */}
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
         <Route path="service" element={<Service />} />

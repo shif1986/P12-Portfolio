@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const form = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -92,4 +92,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default form;
