@@ -65,7 +65,7 @@ export const portfolioData = [
     image: "accompagn'actif.jpg",
     alt:"page-d'accueil",
     language:"Language : WORDPRESS",
-    link :  "https://accompagn-actif.com/particulier/",
+    link :  "https://accompagn-actif.com/",
    
   },
 
