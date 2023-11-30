@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: "Booki",
-    image: "booki.jpg",
+    image: "/booki.jpg",
     alt:"living-room",
     language:"Language : HTML, CSS",
     link : "https://shif1986.github.io/booki/",
@@ -11,7 +11,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "OhMyFood",
-    image: "ohmyfood.jpg",
+    image: "/ohmyfood.jpg",
     alt:"Fine-dine-dish",
     language:"Language : HTML, CSS ANIMATION",
     link : "https://shif1986.github.io/Oh-my-food/",
@@ -19,7 +19,7 @@ export const portfolioData = [
   {
     id: 3,
     name: "Photographe",
-    image: "photographe.jpg",
+    image: "/photographe.jpg",
     alt:"Closer-look-of-eye",
     language: "Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P9-Photographe/",
@@ -27,7 +27,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "Architecte ",
-    image: "architecte.jpg",
+    image: "/architecte.jpg",
     alt:"House-front",
     language:"Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P6-Architecte/",
@@ -35,7 +35,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "Kasa",
-    image: "kasa.jpg",
+    image: "/kasa.jpg",
     alt:"kitchen",
     language:"Language : REACT",
     link: "https://shif1986.github.io/Kasa/"
@@ -44,7 +44,7 @@ export const portfolioData = [
    {
     id: 6 ,
     name: "Evènementielle",
-    image: "evenementielle.jpg",
+    image: "/evenementielle.jpg",
     alt:"Closer-look-of-eye",
     language:"Language : REACT",
     link : "https://shif1986.github.io/P10-D-buggez/",
@@ -53,7 +53,7 @@ export const portfolioData = [
   {
     id: 7,
     name: "Redball Tours ",
-    image: "redball-tours.jpg",
+    image: "/redball-tours.jpg",
     alt:"river-drive",
     language:"Language : WORDPRESS",
     link : " https://redballtours.com/",
@@ -62,7 +62,7 @@ export const portfolioData = [
   {
     id: 8,
     name: "Accompagne'Actif",
-    image: "accompagn'actif.jpg",
+    image: "/accompagn'actif.jpg",
     alt:"page-d'accueil",
     language:"Language : WORDPRESS",
     link :  "https://accompagn-actif.com/",

@@ -2,7 +2,7 @@ import React from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
 
-export default function portfolio() {
+export default function Portfolio() {
   return (
     <div>
       <section className="headline">
@@ -16,7 +16,7 @@ export default function portfolio() {
           SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS DES
           UTILISATEURS.
         </p>
-        <img src="pages.png" alt="pages" />
+        <img src="/pages.png" alt="pages" />
        
       </section>
 
@@ -33,12 +33,12 @@ export default function portfolio() {
           </p>
           
           <div className="logos" >
-          <img  src="html.jpg"  alt="html-logo"  />
-          <img src="css.jpg" alt="css-logo" />
-          <img src="js.jpg" alt="js-logo" />
-          <img src="react.jpg" alt="react-logo" />
-          <img src="sass.jpg" alt="sass-logo" />
-          <img src="redux.jpg" alt="redux-logo" />
+          <img  src="/html.jpg"  alt="html-logo"  />
+          <img src="/css.jpg" alt="css-logo" />
+          <img src="/js.jpg" alt="js-logo" />
+          <img src="/react.jpg" alt="react-logo" />
+          <img src="/sass.jpg" alt="sass-logo" />
+          <img src="/redux.jpg" alt="redux-logo" />
           </div>
 
         </div>

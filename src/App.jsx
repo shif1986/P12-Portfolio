@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
-import Portfolio from "../src/Components/pages/portfolio";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Portfolio from "./Components/pages/Portfolio";
 import Header from "./Components/header";
 import Footer from "./Components/footer";
 import Contact from "./Components/pages/contact";
@@ -10,9 +10,12 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/Portfolio" element={<Portfolio />} /> 
-        <Route path="/Portfolio/contact" element={<Contact />} />
-        <Route path="/Portfolio/service" element={<Service />} />
+        <Route path="/portfolio" element={<Portfolio/>} />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+        <Route path="/service" element={<Service />} />
       </Routes>
 
       <Footer />
@@ -20,4 +23,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
