@@ -52,6 +52,9 @@ export default function Portfolio() {
         {portfolioData.map((portfolio) => {
           return (
             <div className="card-list" key={portfolio.id}>
+
+              {/* Cards */}
+              
               <Cards
                 id={portfolio.id}
                 image={portfolio.image}
